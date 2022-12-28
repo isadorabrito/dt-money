@@ -7,7 +7,7 @@ export function Header() {
     <HeaderContainer>
       <HeaderContent>
         <img src={logoImg} alt="" />
-        <NewTransactionButton>New Transaction</NewTransactionButton>
+        <NewTransactionButton>Nova Transação</NewTransactionButton>
       </HeaderContent>
     </HeaderContainer>
   );
