@@ -11,12 +11,9 @@ import { priceFormatter, dateFormatter } from '../../utils/formatter'
 import { useContextSelector } from 'use-context-selector'
 
 export function Transactions() {
-  const { transactions } = useContextSelector(
-    TransactionsContext,
-    (context) => {
-      return context.transactions
-    },
-  )
+  const transactions = useContextSelector(TransactionsContext, (context) => {
+    return context.transactions
+  })
   return (
     <div>
       <Header />
