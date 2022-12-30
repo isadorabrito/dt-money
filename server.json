@@ -1,20 +1,44 @@
 {
   "transactions": [
     {
-        "id": 1,
-        "description": "Desenvolvimento de site",
-        "type":"income",
-        "category":"Venda",
-        "price": 1400,
-        "createdAt": "2022-12-29T00:04:02.505Z"
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 1400,
+      "createdAt": "2022-12-29T00:04:02.505Z"
     },
     {
-        "id": 2,
-        "description": "Hamburguer",
-        "type":"outcome",
-        "category":"Alimentacao",
-        "price": 60,
-        "createdAt": "2022-12-29T23:04:02.505Z"
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentacao",
+      "price": 60,
+      "createdAt": "2022-12-29T23:04:02.505Z"
+    },
+    {
+      "description": "Desenvolvimento de apps flutter",
+      "category": "Venda",
+      "price": 12000,
+      "type": "income",
+      "createdAt": "2022-12-30T00:31:39.662Z",
+      "id": 3
+    },
+    {
+      "description": "Pizza",
+      "category": "Alimentacao",
+      "price": 40,
+      "type": "outcome",
+      "createdAt": "2022-12-30T00:55:33.677Z",
+      "id": 4
+    },
+    {
+      "description": "RocketSeat",
+      "category": "Ensino",
+      "price": 1000,
+      "type": "outcome",
+      "createdAt": "2022-12-30T01:03:30.489Z",
+      "id": 5
     }
   ]
 }
